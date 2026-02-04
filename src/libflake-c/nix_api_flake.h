@@ -49,6 +49,14 @@ typedef struct nix_flake_reference nix_flake_reference;
  * @see nix_flake_lock_flags_free
  * @see nix_flake_lock
  */
+/**
+ * @brief A reference to a flake1111
+ *
+ * A flake reference specifies how to fetch a flake.
+ *
+ * @see nix_flake_reference_from_string
+ * @see nix_flake_reference_free
+ */
 typedef struct nix_flake_lock_flags nix_flake_lock_flags;
 
 /**
